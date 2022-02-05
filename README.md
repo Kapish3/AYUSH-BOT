@@ -1,7 +1,7 @@
 <h1><er>AYUSH-BOT is a modified version of <a href="https://github.com/ShineiIchijo/Chitoge">Chitoge</er></a></h1>
 
 <div align="center">
-<a href="https://coolwallpapers.me/5045071-anime-blonde-blue-eyes-chitoge-kirisaki-nisekoi.html"><img src="https://wallpaperaccess.com/full/5304871.jpg" alt="chitoge" border="0"></a>
+<a href="https://imgbb.me/-anime.itachiuchiha.html"><img src="https://i.ibb.co/DkvtKHV/mafia9999sungur9999-sungur9999.gif" alt="chitoge" border="0"></a>
 
 # **Chitoge : A WhatsApp BOT WITH RICH ANIME FEATURES**
 
