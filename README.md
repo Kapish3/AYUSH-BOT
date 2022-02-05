@@ -29,12 +29,12 @@
 ## 💻 Deploy/Hosting Guide
 
 -   Section Moved to
-    [Chitoge-Guides](https://github.com/monarch21/AYUSH-BOT/blob/main/README.md)
+    [AYUSH-BOT GUIDES](https://github.com/monarch21/AYUSH-BOT/blob/main/README.md)
 
 ## 🍥 Features of the Repo
 
 -   To view all features, click
-    here➡️[Chitoge_featuresList.md](https://github.com/monarch21/AYUSH-BOT/blob/main/Features.md)
+    here➡️[AYUSH-BOT_featuresList.md](https://github.com/monarch21/AYUSH-BOT/blob/main/Features.md)
 
 ## 💪 Contribution
 
