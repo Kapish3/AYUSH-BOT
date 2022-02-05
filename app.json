@@ -1,5 +1,5 @@
 {
-  "name": "Chitoge",
+  "name": "AYUSH-BOT",
   "description": "A WhatsApp Bot With Rich Anime Features. ",
   "keywords": [
       "bot",
@@ -11,9 +11,9 @@
       "whatsapp-sticker-bot",
       "whatsapp-botto"
   ],
-  "website": "https://github.com/ShinNouzen/Chitoge#readme",
-  "repository": "https://github.com/ShinNouzen/Chitoge.git",
-  "logo": "https://wallpapermemory.com/uploads/711/chitoge-kirisaki-wallpaper-full-hd-323316.jpg",
+  "website": "https://github.com/monarch21/AYUSH-BOT#readme",
+  "repository": "https://github.com/monarch21/AYUSH-BOT.git",
+  "logo": "https://imgb.com/uploads/711/https://i.ibb.co/DkvtKHV/mafia9999sungur9999-sungur9999.gif",
   "success_url": "/",
   "env": {
       "PREFIX": {
