@@ -3,7 +3,7 @@
 <div align="center">
 <a href="https://imgbb.me/-anime.itachiuchiha.html"><img src="https://i.ibb.co/DkvtKHV/mafia9999sungur9999-sungur9999.gif" alt="chitoge" border="0"></a>
 
-# **Chitoge : A WhatsApp BOT WITH RICH ANIME FEATURES**
+# **AYUSH-BOT : A WhatsApp BOT WITH RICH ANIME FEATURES**
 
 [![CodeFactor](https://www.codefactor.io/repository/github/shineiichijo/chitoge/badge)](https://www.codefactor.io/repository/github/shineiichijo/chitoge)
 
