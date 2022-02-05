@@ -22,7 +22,7 @@ export default class Command extends BaseCommand {
 	): Promise<void> => {
 		const user = M.sender.jid;
 		const chitoge =
-			"https://media.tenor.com/videos/571d88ea5d66e7b95cdbc4ef6029dd95/mp4";
+			"https://i.ibb.co/DkvtKHV/mafia9999sungur9999-sungur9999.gif";
 		if (!parsedArgs.joined) {
 			const commands = this.handler.commands.keys();
 			const categories: { [key: string]: ICommand[] } = {};
@@ -45,7 +45,7 @@ export default class Command extends BaseCommand {
 			}
 			let text = `👋🏻 (💙ω💙) Konichiwa! *@${
 				user.split("@")[0]
-			}*, ━━━❰I'm AYUSH a whatsapp bot for your assistance** tell me how can i help?❱━━━\n\n it's my official group:[https://chat.whatsapp.com/E5CwW1dAXjRKE3XuLXxF8J]\n\nMy prefix is - "${
+			}*, ━━━❰I'm AYUSH a whatsapp bot for your assistance** tell me how can i help you?❱━━━\n\n it's my official group:[https://chat.whatsapp.com/E5CwW1dAXjRKE3XuLXxF8J]\n\nMy prefix is - "${
 				this.client.config.prefix
 			}"\n\nThe usable commands are listed below.\n\n`;
 			const keys = Object.keys(categories);
