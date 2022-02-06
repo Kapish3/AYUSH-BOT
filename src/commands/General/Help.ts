@@ -16,13 +16,9 @@ export default class Command extends BaseCommand {
 		});
 	}
 
-	run = async (
-		M: ISimplifiedMessage,
-		parsedArgs: IParsedArgs
-	): Promise<void> => {
+	run = async (M: ISimplifiedMessage,parsedArgs: IParsedArgs): Promise<void> => {
 		const user = M.sender.jid;
-		const chitoge =
-			"https://i.ibb.co/DkvtKHV/mafia9999sungur9999-sungur9999.gif";
+		const chitoge ="https://i.ibb.co/DkvtKHV/mafia9999sungur9999-sungur9999.gif";
 		if (!parsedArgs.joined) {
 			const commands = this.handler.commands.keys();
 			const categories: { [key: string]: ICommand[] } = {};
