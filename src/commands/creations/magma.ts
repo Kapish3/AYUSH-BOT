@@ -23,7 +23,7 @@ export default class Command extends BaseCommand {
 	run = async (M: ISimplifiedMessage, { joined }: IParsedArgs): Promise<void> => {
 		 if (!joined) return void (await M.reply(`Provide the text, Baka!`))
         const cara = joined.trim()
-		const wall = await w5botapi.textpro("https://textpro.me/create-red-magma-lava-text-effect-online-free-1014.html",
+		const wall = await w5botapi.textpro("https://textpro.me/create-a-magma-hot-text-effect-online-1030.html",
     AYUSH
     );
 		const buffer = await request.buffer(wall).catch((e) => {
