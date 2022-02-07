@@ -13,7 +13,7 @@ export default class Command extends BaseCommand {
 		super(client, handler, {
 			command: " 3dc",
 			description: `Get text image`,
-			aliases: ["horror"],
+			aliases: ["3d"],
 			category: "utils",
 			usage: `${client.config.prefix}horror`,
 			baseXp: 50,
