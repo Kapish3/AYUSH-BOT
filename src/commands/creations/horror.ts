@@ -24,7 +24,7 @@ export default class Command extends BaseCommand {
 		 if (!joined) return void (await M.reply(`Provide the text, Baka!`))
         const cara = joined.trim()
 		const wall = await w5botapi.textpro("https://textpro.me/create-green-horror-style-text-effect-online-1036.html",
-    cara
+     AYUSH	  
     );
 		const buffer = await request.buffer(wall).catch((e) => {
 			return void M.reply(e.message);
