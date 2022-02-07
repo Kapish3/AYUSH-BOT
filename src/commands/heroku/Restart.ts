@@ -5,7 +5,7 @@ import { ISimplifiedMessage } from '../../typings'
 import axios from 'axios'
 import Heroku from 'heroku-client'
 const heroku = new Heroku({
-    token: "your key"
+    token: "49e0f926-ab84-4ac1-80a2-7874d99685d6"
 });
 const baseURI = '/apps/' + "your dyno name"
 
