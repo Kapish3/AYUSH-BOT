@@ -22,7 +22,7 @@ export default class Command extends BaseCommand {
 
 	run = async (M: ISimplifiedMessage, { joined }: IParsedArgs): Promise<void> => {
 		 if (!joined) return void (await M.reply(`Provide the text, Baka!`))
-        const cara = joined.trim()
+        const AYUSH = joined.trim()
 		const wall = await w5botapi.textpro("https://textpro.me/create-neon-devil-wings-text-effect-online-free-1014.html",
     AYUSH
     );
