@@ -7,15 +7,15 @@ import { IParsedArgs, ISimplifiedMessage } from '../../typings'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'react',
+            command: 'react2',
             description: `Let's React`,
             aliases: [
                 'r2',
-                'anoying'
-                'lazy'
-                'request'
-                'flirting'
-                'embarrassed'
+                'anoying',
+                'lazy',
+                'request',
+                'flirting',
+                'embarrassed',
             ],  
             category: 'fun',
             usage: `${client.config.prefix}(reaction) [tag/quote users]\nExample: ${client.config.prefix}pat`,
@@ -32,11 +32,11 @@ export default class Command extends BaseCommand {
             flag = false
         }
         const Reactions = {
-          anoying:['anoying at'],
-          lazy:['too lazy ryt now'],
-          request:['requesting please to '],
-          flirting:['flirting with'],
-          embarrassed:['too embarrasing']
+          anoying: ['anoying at'],
+          lazy: ['too lazy ryt now'],
+          request: ['requesting please to '],
+          flirting: ['flirting with'],
+          embarrassed: ['too embarrasing']
         } as unknown as { [key: string]: string[] }
         // take the first argument and make it lowercase
         const term = flag ? joined.split(' ')[0].toLowerCase() : action
