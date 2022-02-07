@@ -11,9 +11,9 @@ const w5botapi = require('w5-textmaker');
 export default class Command extends BaseCommand {
 	constructor(client: WAClient, handler: MessageHandler) {
 		super(client, handler, {
-			command: "devil",
+			command: "thunder",
 			description: `Get text image`,
-			aliases: ["devil"],
+			aliases: ["th"],
 			category: "utils",
 			usage: `${client.config.prefix}devil`,
 			baseXp: 50,
