@@ -13,7 +13,7 @@ export default class Command extends BaseCommand {
 		super(client, handler, {
 			command: "grafiti",
 			description: `Get text image`,
-			aliases: ["glitch"],
+			aliases: ["gr"],
 			category: "utils",
 			usage: `${client.config.prefix}glitch`,
 			baseXp: 50,
