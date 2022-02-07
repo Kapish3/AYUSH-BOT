@@ -16,6 +16,7 @@ export default class Command extends BaseCommand {
                 'request',
                 'flirting',
                 'embarrassed',
+                'happybirthday',
             ],  
             category: 'fun',
             usage: `${client.config.prefix}(reaction) [tag/quote users]\nExample: ${client.config.prefix}pat`,
@@ -36,7 +37,8 @@ export default class Command extends BaseCommand {
           lazy: ['too lazy ryt now'],
           request: ['requesting please to '],
           flirting: ['flirting with'],
-          embarrassed: ['too embarrasing']
+          embarrassed: ['too embarrasing'],
+          happybirthday: ['he/she and all of us wished you happy birthday']
         } as unknown as { [key: string]: string[] }
         // take the first argument and make it lowercase
         const term = flag ? joined.split(' ')[0].toLowerCase() : action
