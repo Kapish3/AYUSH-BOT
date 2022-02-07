@@ -11,7 +11,6 @@ export default class Command extends BaseCommand {
             description: 'adds participant to group chats',
             category: 'moderation',
             usage: `${client.config.prefix}add [@mention | tag]`,
-            aliases: ['add'],
             baseXp: 10
         })
     }
