@@ -19,7 +19,7 @@ const client = new WAClient({
   session: process.env.SESSION || "Chitoge",
   prefix: process.env.PREFIX || ":",
   mods: (process.env.MODS || "")
-    .split(", ")
+    .split(",")
     .map((number) => `${number}@s.whatsapp.net`),
   gkey: process.env.GOOGLE_API_KEY || "",
   chatBotUrl: process.env.CHAT_BOT_URL || "",
