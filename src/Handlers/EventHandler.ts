@@ -102,7 +102,7 @@ export default class EventHandler {
 				.setColor("title", "#FF0000")
 				.setColor("avatar", "#FF0000")
 				.setText("member-count", `- ${memberCount} member !`)
-				.setText("message", `we're probably not gonna miss you`)
+				.setText("message", `BYE BYE I HOPE YOU ENJOYED`)
 				.setBackground(
 					"https://images.unsplash.com/photo-1554050857-c84a8abdb5e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80"
 				)
@@ -114,7 +114,7 @@ export default class EventHandler {
 				{
 					caption: `Goodbye *@${
 						event.participants[0].split("@")[0]
-					}* 👋🏻, we're probably not gonna miss you.`,
+					}* 👋🏻, BYE BYE I HOPE YOU ENJOYED.`,
 					contextInfo,
 				}
 			));
