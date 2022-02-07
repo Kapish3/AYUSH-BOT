@@ -7,6 +7,7 @@ export default class Command extends BaseCommand {
         super(client, handler, {
             adminOnly: true,
             command: 'add',
+            aliases :['a'],
             description: 'adds participant to group chats',
             category: 'moderation',
             usage: `${client.config.prefix}add [@mention | tag]`,
