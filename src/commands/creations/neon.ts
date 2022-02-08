@@ -13,9 +13,9 @@ export default class Command extends BaseCommand {
 		super(client, handler, {
 			command: " neon",
 			description: `Get text image`,
-			aliases: ["no"],
-			category: "utils",
-			usage: `${client.config.prefix}horror`,
+			aliases: ["ne"],
+			category: "crearions",
+			usage: `${client.config.prefix}neon`,
 			baseXp: 50,
 		});
 	}
