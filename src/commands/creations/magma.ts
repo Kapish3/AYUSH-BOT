@@ -14,7 +14,7 @@ export default class Command extends BaseCommand {
 			command: "magma",
 			description: `Get text image`,
 			aliases: ["mag"],
-			category: "utils",
+			category: "creations",
 			usage: `${client.config.prefix}devil`,
 			baseXp: 50,
 		});
