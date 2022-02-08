@@ -14,8 +14,8 @@ export default class Command extends BaseCommand {
 			command: "fog",
 			description: `Get text image`,
 			aliases: ["fog"],
-			category: "utils",
-			usage: `${client.config.prefix}devil`,
+			category: "creations",
+			usage: `${client.config.prefix}fog`,
 			baseXp: 50,
 		});
 	}
