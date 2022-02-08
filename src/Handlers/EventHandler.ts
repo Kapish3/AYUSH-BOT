@@ -114,7 +114,7 @@ export default class EventHandler {
 				{
 					caption: `Goodbye *@${
 						event.participants[0].split("@")[0]
-					}* 👋🏻, BYE BYE I HOPE YOU ENJOYED.`,
+					}* `👋🏻, GOODBYE I HOPE YOU ENJOYED.`,
 					contextInfo,
 				}
 			));
