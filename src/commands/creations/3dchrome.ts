@@ -14,8 +14,8 @@ export default class Command extends BaseCommand {
 			command: " 3dc",
 			description: `Get text image`,
 			aliases: ["3d"],
-			category: "utils",
-			usage: `${client.config.prefix}horror`,
+			category: "creations",
+			usage: `${client.config.prefix}3dchrome`,
 			baseXp: 50,
 		});
 	}
