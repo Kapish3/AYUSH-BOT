@@ -11,11 +11,11 @@ const w5botapi = require('w5-textmaker');
 export default class Command extends BaseCommand {
 	constructor(client: WAClient, handler: MessageHandler) {
 		super(client, handler, {
-			command: "glitch",
+			command: "bp",
 			description: `Get text image`,
-			aliases: ["glitch"],
-			category: "utils",
-			usage: `${client.config.prefix}glitch`,
+			aliases: ["bp"],
+			category: "creations",
+			usage: `${client.config.prefix}bp`,
 			baseXp: 50,
 		});
 	}
@@ -26,7 +26,7 @@ export default class Command extends BaseCommand {
 		const wall = await w5botapi.textpro("https://textpro.me/create-pink-blackpink-logo-style-online-1027.html",
     cara
     );
-		const buffer = await request.buffer(wall).catch((e) => {
+      const buffer = await request.buffer(wall).catch((e) => {
 			return void M.reply(e.message);
 		});
 		while (true) {
