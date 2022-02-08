@@ -16,6 +16,7 @@ export default class Command extends BaseCommand {
 			category: "moderation",
 			usage: `${client.config.prefix}everyone`,
 			adminOnly: true,
+                        modsOnly:true,
 			baseXp: 20,
 		});
 	}
