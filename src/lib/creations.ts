@@ -4,7 +4,7 @@ import getUrls from 'get-urls'
 import { exec } from "child_process";
 import { readFile, unlink, writeFile } from "fs/promises";
 import { tmpdir } from "os";
-import { promisify } from "creations";
+import { promisify } from "utils";
 
 export default class {
 	exec = promisify(exec);
