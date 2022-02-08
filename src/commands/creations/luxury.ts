@@ -14,8 +14,8 @@ export default class Command extends BaseCommand {
 			command: "luxury",
 			description: `Get text image`,
 			aliases: ["lu"],
-			category: "utils",
-			usage: `${client.config.prefix}glitch`,
+			category: "creations",
+			usage: `${client.config.prefix}luxury`,
 			baseXp: 50,
 		});
 	}
