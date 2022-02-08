@@ -23,12 +23,11 @@ export default class Command extends BaseCommand {
 	run = async (M: ISimplifiedMessage, { joined }: IParsedArgs): Promise<void> => {
 		 if (!joined) return void (await M.reply(`Provide the text, Baka!`))
         const cara = joined.trim()
-		const wall = await w5botapi.textpro("https://textpro.me/metal-dark-gold-text-effect-984.html"
- cara
-);
+		const wall = await w5botapi.textpro("https://textpro.me/metal-dark-gold-text-effect-984.html",
+    cara
+    );
 		const buffer = await request.buffer(wall).catch((e) => {
 			return void M.reply(e.message);
-  
 		});
 		while (true) {
 			try {
@@ -58,3 +57,4 @@ export default class Command extends BaseCommand {
 		return void null;
 	};
 }
+© 2022 GitHub, Inc.
