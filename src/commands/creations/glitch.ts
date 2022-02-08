@@ -13,7 +13,7 @@ export default class Command extends BaseCommand {
 		super(client, handler, {
 			command: "glitch",
 			description: `Get text image`,
-			aliases: ["glitch"],
+			aliases: ["gli"],
 			category: "creations",
 			usage: `${client.config.prefix}glitch`,
 			baseXp: 50,
