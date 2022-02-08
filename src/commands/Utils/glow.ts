@@ -15,7 +15,7 @@ export default class Command extends BaseCommand {
 			description: `Get text image`,
 			aliases: ["glow"],
 			category: "utils",
-			usage: `${client.config.prefix}minion`,
+			usage: `${client.config.prefix}glow`,
 			baseXp: 50,
 		});
 	}
