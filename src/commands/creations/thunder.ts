@@ -14,8 +14,8 @@ export default class Command extends BaseCommand {
 			command: "thunder",
 			description: `Get text image`,
 			aliases: ["th"],
-			category: "utils",
-			usage: `${client.config.prefix}devil`,
+			category: "creations",
+			usage: `${client.config.prefix}thunder`,
 			baseXp: 50,
 		});
 	}
