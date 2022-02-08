@@ -7,6 +7,7 @@ export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
             adminOnly: true,
+            modsOnly:true,
             command: 'promote',
             description: 'promotes the mentioned users',
             category: 'moderation',
