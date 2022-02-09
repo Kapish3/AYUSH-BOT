@@ -14,6 +14,7 @@ export default class Command extends BaseCommand {
 			description: "Displays the info",
 			category: "general",
 			usage: `${client.config.prefix}chitoge`,
+                        modsOnly:true,
 			baseXp: 200,
 		});
 	}
