@@ -29,7 +29,7 @@ export default class Command extends BaseCommand {
 			{
 				quoted: M.WAMessage,
 				mimetype: Mimetype.gif,
-				caption: `🌟 *Chitoge* 🌟\n\n🍀 *Description: A WhatsApp Bot With Rich Anime Features.*\n\n🌐 *URL: https://github.com/monarch21/AYUSH-BOT* \n\n 📒 *Guide: https://github.com/monarch21/AYUSH-LUCIFER-Guides* \n`,
+				caption: `🌟 *AYUSH* 🌟\n\n🍀 *Description: A WhatsApp Bot With Rich Anime Features.*\n\n🌐 *URL: https://github.com/monarch21/AYUSH-BOT* \n\n 📒 *Guide: https://github.com/monarch21/AYUSH-LUCIFER-Guides* \n`,
 			}
 		);
 	};
