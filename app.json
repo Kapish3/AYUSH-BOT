@@ -1,5 +1,5 @@
 {
-  "name": "AYUSH-BOT",
+  "name": "Toman-Bot",
   "description": "A WhatsApp Bot With Rich Anime Features. ",
   "keywords": [
       "bot",
@@ -11,8 +11,8 @@
       "whatsapp-sticker-bot",
       "whatsapp-botto"
   ],
-  "website": "https://github.com/monarch21/AYUSH-BOT#readme",
-  "repository": "https://github.com/monarch21/AYUSH-BOT.git",
+  "website": "https://github.com/Chingkheinganba06/AYUSH-BOT#readme",
+  "repository": "https://github.com/Chingkheinganba06/AYUSH-BOT.git",
   "logo": "https://i.pinimg.com/736x/71/c2/8e/71c28e4ffd58c60aceacffab60db14cc.jpg",
   "success_url": "/",
   "env": {
