@@ -11,7 +11,7 @@
 
 > A Fully Modular and Efficient Bot <br>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/Chingkheinganba06/AYUSH-BOT)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/Kapish3/AYUSH-BOT)
 
 
 </div><br/>
